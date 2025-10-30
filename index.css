@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small styles for decorative animation */
+@keyframes blob {
+  0%{ transform: translateY(0px) }
+  50%{ transform: translateY(-10px) }
+  100%{ transform: translateY(0px) }
+}
+.animate-blob{ animation: blob 6s infinite ease-in-out }
